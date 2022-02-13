@@ -1,0 +1,126 @@
+.Dashboard {
+  background: #f7f8fc;
+  width: 80%;
+  height: 100%px;
+}
+.Card {
+  background: white;
+  border-radius: 10px;
+  width: 15%;
+  justify-content: center;
+  text-align: center;
+  margin: 5%;
+  border: 1px solid #dfe0eb;
+}
+.Cards {
+  display: flex;
+  justify-content: center;
+}
+.Dashboard h1 {
+  margin-left: 5%;
+}
+.TodaysTrends {
+  background: white;
+  border-radius: 10px;
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
+  border: 1px solid #dfe0eb;
+}
+.TodaysTrends img {
+}
+.AdditionalInfo {
+  border-left: 1px solid #dfe0eb;
+  width: 40%;
+  height: 100%;
+  justify-content: right;
+  align-items: stretch;
+}
+.Info {
+  border-bottom: 1px solid #dfe0eb;
+  width: 100%;
+
+  text-align: center;
+}
+.FullGraph {
+  margin-left: 5%;
+  width: 60%;
+}
+.TicketsAndTasks {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Tickets {
+  border: 1px solid #dfe0eb;
+  width: 42%;
+  background: white;
+  border-radius: 10px;
+}
+.Tasks {
+  border: 1px solid #dfe0eb;
+  width: 42%;
+  background: white;
+  border-radius: 10px;
+  padding-left: 5%;
+}
+.TicketsDetails {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TasksDetails {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TicketsLine {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+.TicketsDetails p {
+  color: #3751ff;
+}
+.TasksDetails p {
+  color: #3751ff;
+}
+
+.TicketsLine p {
+  color: #9fa2b4;
+}
+.plus {
+  background: #f0f1f7;
+  padding: 1.5%;
+  border-radius: 10px;
+}
+.Urgent {
+  background: #fec400;
+  padding: 1.5%;
+  border-radius: 10px;
+  color: white;
+  text-align: right;
+  display: inline-block;
+  margin-left: 72%;
+}
+.New {
+  background: #29cc97;
+  padding: 1.5%;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  margin-left: 70%;
+}
+.Default {
+  background: #f0f1f7;
+  padding: 1.5%;
+  border-radius: 10px;
+  color: #9fa2b4;
+  display: inline-block;
+  margin-left: 72%;
+}

@@ -1,0 +1,43 @@
+.Sidebar{
+    background: #363740;
+    width: 20%;
+    
+}
+.DashboardKit{
+    color: #A4A6B3;
+    margin: 5%;
+}
+.SidebarList{
+    color: #A4A6B3;
+    display:flex ;
+    justify-content: left;
+    margin: 5% 10%;
+    align-items: center;
+    
+}
+.SidebarList img{
+    width: 5%;
+    height: 5%;
+    margin-bottom: 0;
+    
+}
+.SidebarList p{
+   
+    
+    padding-left: 5%;
+    
+}
+
+.Divider{
+    border: 0.1px solid #F7F8FC;
+    
+}
+.SidebarLogo{
+    display:flexd ;
+    justify-content: left;
+    margin: 5% 10%;
+    padding-bottom: 10%;
+}
+.SidebarLogo img{
+    width: 10%;
+}
