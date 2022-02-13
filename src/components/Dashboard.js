@@ -75,6 +75,11 @@ function Dashboard() {
               <label for="Third">Update ticket report</label>
               <p className="Default">DEFAULT</p>
             </div>
+            <div className="Form">
+              <input type="radio" value="Third"></input>
+              <label for="Third">Update ticket report</label>
+              <p className="Default">DEFAULT</p>
+            </div>
           </form>
         </div>
       </div>
